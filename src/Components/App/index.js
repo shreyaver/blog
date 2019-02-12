@@ -11,7 +11,7 @@ const App = (props) => {
       <Header />
       <AllPosts cardDataArr = {props.cardDataArr}/>
       <div className="Button-div">
-        <Button type="button" caption = "CREATE POST" />
+        <Button type="button" caption = "CREATE POST" onClick = "document.location.href='/post'"/>
       </div>
       <Footer />
     </div>

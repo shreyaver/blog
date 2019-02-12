@@ -1,4 +1,4 @@
-.Button {
+.Form-content .Button {
     margin: 0 auto;
 }
 .Form-content {
@@ -15,7 +15,7 @@
     text-transform: uppercase;
     font-size: 18px;
 }
-span {
+.Form-content span {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -23,7 +23,7 @@ span {
     align-items: center;
     height: 40px;
 }
-input, textarea {
+.Form-content input, textarea {
     width: 40vw;
     max-width: 700px;
     min-width: 150px;
@@ -31,21 +31,21 @@ input, textarea {
     font-size: 18px;
     color: grey;
 }
-label {
+.Form-content label {
     display: inline-block;
     width: 40vw;
     max-width: 700px;
     min-width: 150px;
 }
-.title {
+.Form-content .title {
     height: 50px;
 }
-.description {
+.Form-content .description {
     height: 120px;
 }
-input[type=text] {
+.Form-content input[type=text] {
     height: 100%;
 }
-textarea {
+.Form-content textarea {
     height: 100%;
 }

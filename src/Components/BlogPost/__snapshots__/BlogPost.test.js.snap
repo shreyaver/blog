@@ -49,6 +49,7 @@ exports[`BlogPost renders without crashing 1`] = `
       10
       <button
         className="Heart-icon"
+        onClick={[Function]}
       />
     </span>
   </div>

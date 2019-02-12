@@ -90,6 +90,7 @@ exports[`App renders without crashing 1`] = `
           10
           <button
             className="Heart-icon"
+            onClick={[Function]}
           />
         </span>
       </div>
@@ -142,6 +143,7 @@ exports[`App renders without crashing 1`] = `
           1
           <button
             className="Liked-heart-icon"
+            onClick={[Function]}
           />
         </span>
       </div>
@@ -194,6 +196,7 @@ exports[`App renders without crashing 1`] = `
           15
           <button
             className="Heart-icon"
+            onClick={[Function]}
           />
         </span>
       </div>
@@ -246,6 +249,7 @@ exports[`App renders without crashing 1`] = `
           11
           <button
             className="Heart-icon"
+            onClick={[Function]}
           />
         </span>
       </div>
@@ -298,6 +302,7 @@ exports[`App renders without crashing 1`] = `
           45
           <button
             className="Liked-heart-icon"
+            onClick={[Function]}
           />
         </span>
       </div>
@@ -350,6 +355,7 @@ exports[`App renders without crashing 1`] = `
           11
           <button
             className="Heart-icon"
+            onClick={[Function]}
           />
         </span>
       </div>
@@ -360,6 +366,7 @@ exports[`App renders without crashing 1`] = `
   >
     <button
       className="Button"
+      onClick="document.location.href='/post'"
       type="button"
     >
       CREATE POST

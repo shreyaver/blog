@@ -18,13 +18,13 @@ button:focus {
     float:right;
     background-image: url("../../Icons/heart-black.svg");
 }
-.Heart-icon:hover {
+/* .Heart-icon:hover {
     background-image: url("../../Icons/heart-red.svg");
-}
+} */
 .Liked-heart-icon {
     float:right;
     background-image: url("../../Icons/heart-red.svg");
 }
-.Liked-heart-icon:hover {
+/* .Liked-heart-icon:hover {
     background-image: url("../../Icons/heart-black.svg");
-}
+} */

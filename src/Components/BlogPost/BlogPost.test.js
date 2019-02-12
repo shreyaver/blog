@@ -1,6 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import BlogPost from '.';
+import { shallow } from 'enzyme';
 
 describe('BlogPost', () => {
   const cardData = {
@@ -12,8 +13,22 @@ describe('BlogPost', () => {
     "liked": false,
     "image": "abstract.png"
   }
+  const initialState = {
+    liked: cardData.liked,
+    claps: cardData.claps
+}
+  const wrapper = shallow(<BlogPost cardData = {cardData} />);
+  beforeEach(() => {
+    wrapper.instance().setState(initialState);
+  });
   it('renders without crashing', () => {
     const blogPost = renderer.create(<BlogPost cardData = {cardData} />).toJSON();
     expect(blogPost).toMatchSnapshot();
+  });
+  
+  it('changes liked state', () => {
+    
+    wrapper.instance().handleLike();
+    expect(wrapper.instance().state.liked).toEqual(true);
   });
 })
