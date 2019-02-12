@@ -9,7 +9,7 @@ const AllRoutes = (props) =>{
     <Router>
         <Switch>
             <Route exact path="/" component = {App}/>
-            <Route path="/post" component = {CreatePost}/>
+            <Route exact path="/post" component = {CreatePost}/>
             <Route component = {NotFoundPage}/>
         </Switch>
     </Router>
