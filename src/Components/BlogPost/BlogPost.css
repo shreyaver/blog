@@ -1,0 +1,7 @@
+.Blog-post {
+    width: 30%;
+    margin-top: 3%;
+    color:grey;
+    border: 1px solid rgb(216, 216, 216); 
+    min-width: 300px;
+}

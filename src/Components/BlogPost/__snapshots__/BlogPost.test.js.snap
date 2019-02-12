@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlogPost renders without crashing 1`] = `
+<div
+  className="Blog-post"
+>
+  <div
+    className="Post-content"
+  >
+    <div
+      className="Image-panel"
+      style={
+        Object {
+          "backgroundImage": "url(abstract.png)",
+        }
+      }
+    />
+    <article
+      className="Post-text"
+    >
+      <div>
+        <span
+          className="Date-posted"
+        >
+          2nd Januray, 2018
+        </span>
+        <span
+          className="Reading-time"
+        >
+          2 mins
+        </span>
+      </div>
+      <label>
+        The future of abstract art and the culture ...
+      </label>
+      <p>
+        Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+      </p>
+    </article>
+  </div>
+  <div
+    className="Post-reaction"
+  >
+    <hr />
+    <span>
+      <button
+        className="Clap-icon"
+      />
+      10
+      <button
+        className="Heart-icon"
+      />
+    </span>
+  </div>
+</div>
+`;
