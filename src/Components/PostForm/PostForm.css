@@ -30,6 +30,7 @@
     height: 30px;
     font-size: 18px;
     color: grey;
+    border: 1px solid rgb(216, 216, 216);
 }
 .Form-content label {
     display: inline-block;
@@ -41,10 +42,14 @@
     height: 50px;
 }
 .Form-content .description {
-    height: 120px;
+    height: 80px;
 }
 .Form-content input[type=text] {
     height: 100%;
+}
+.Form-content input[type=file] {
+    height: 100%;
+    border: none;
 }
 .Form-content textarea {
     height: 100%;

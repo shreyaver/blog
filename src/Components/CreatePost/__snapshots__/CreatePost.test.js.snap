@@ -62,10 +62,14 @@ exports[`CreatePost renders without crashing 1`] = `
       className="title"
     >
       <label>
-        Title
+        Title (Characters: 
+        70
+        )
       </label>
       <input
+        className="titleEntry"
         maxLength={70}
+        onChange={[Function]}
         type="text"
       />
     </span>
@@ -73,10 +77,14 @@ exports[`CreatePost renders without crashing 1`] = `
       className="description"
     >
       <label>
-        Description
+        Description (Characters: 
+        130
+        )
       </label>
       <textarea
+        className="descriptionEntry"
         maxLength={130}
+        onChange={[Function]}
       />
     </span>
     <span>

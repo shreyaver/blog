@@ -10,8 +10,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 ReactDOM.render(
 <Router>
   <div>
-<Route exact path="/home" render={() => (<App cardDataArr = {cardDataArr}/>)}/>
-<Route exact path="/post" component = {CreatePost}/>
+    <Route exact path="/" render={() => (<App cardDataArr = {cardDataArr}/>)}/>
+    <Route exact path="/post" component = {CreatePost}/>
   </div>
 </Router>, document.getElementById('root'));
 // If you want your app to work offline and load faster, you can change
