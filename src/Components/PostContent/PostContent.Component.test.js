@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import PostContent from '.';
+import PostContent from './PostContent.Component.js';
 
 describe('PostContent', () => {
   const cardData = {

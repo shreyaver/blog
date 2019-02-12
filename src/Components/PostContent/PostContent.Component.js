@@ -1,5 +1,5 @@
 import React from 'react';
-import './PostContent.css';
+import './PostContent.Component.css';
 
 const PostContent = (props) => {
    const imageData = require(`../../Images/${props.cardData.image}`);

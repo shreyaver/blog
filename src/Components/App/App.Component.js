@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import './App.css';
-import AllPosts from '../AllPosts';
-import Header from '../Header';
-import Button from '../Button';
-import Footer from '../Footer';
+import './App.Component.css';
+import AllPosts from '../AllPosts/AllPosts.Component';
+import Header from '../Header/Header.Component';
+import Button from '../Button/Button.Component';
+import Footer from '../Footer/Footer.Component';
 import getRequest from '../../Helpers/Request/request.js';
+import LoadingPage from '../LoadingPage/LoadingPage.Component.js';
 
 class App extends Component {
   state = {
@@ -16,6 +17,9 @@ class App extends Component {
     });
   }
   render() {
+    if (this.state.cardDataArr.length === 0) {
+      return (<LoadingPage />);
+    } else {
     return (
       <div className = "App">
         <Header />
@@ -27,6 +31,7 @@ class App extends Component {
       </div>
     );
   }
+}
 }
 
 export default App;

@@ -1,9 +1,8 @@
 import React from 'react';
-import './CreatePost.css';
-import Header from '../Header';
-import Button from '../Button';
-import Footer from '../Footer';
-import PostForm from '../PostForm';
+import './CreatePost.Component.css';
+import Header from '../Header/Header.Component.js';
+import Footer from '../Footer/Footer.Component';
+import PostForm from '../PostForm/PostForm.Component.js';
 
 const CreatePost = (props) => {
   return (

@@ -1,9 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App renders without crashing 1`] = `
-<div
-  className="App"
->
+exports[`LoadingPage renders without crashing 1`] = `
+<div>
   <header>
     <div
       className="Content"
@@ -21,7 +19,7 @@ exports[`App renders without crashing 1`] = `
           className="navBar"
         >
           <a
-            href="#"
+            href="/"
           >
             Blog
           </a>
@@ -40,18 +38,9 @@ exports[`App renders without crashing 1`] = `
     </div>
   </header>
   <div
-    className="All-posts"
-  />
-  <div
-    className="Button-div"
+    className="Loading-page"
   >
-    <button
-      className="Button"
-      onClick={[Function]}
-      type="button"
-    >
-      CREATE POST
-    </button>
+    Loading...
   </div>
   <footer>
     <div

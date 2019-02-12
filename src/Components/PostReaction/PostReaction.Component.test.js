@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import PostReaction from '.';
+import PostReaction from './PostReaction.Component.js';
 import { shallow } from 'enzyme';
 
 describe('PostReaction', () => {

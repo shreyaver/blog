@@ -1,6 +1,6 @@
 import React from 'react';
-import BlogPost from '../BlogPost';
-import './AllPosts.css';
+import BlogPost from '../BlogPost/BlogPost.Component';
+import './AllPosts.Component.css';
 
 const AllPosts = (props) => {
     const posts = [];

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './PostForm.css';
-import Button from '../Button';
+import './PostForm.Component.css';
+import Button from '../Button/Button.Component';
 
 class PostForm extends Component  {
     state = {
@@ -52,9 +52,6 @@ class PostForm extends Component  {
             </span>
             <span>
                 <Button type = "submit" caption = "UPLOAD POST" /> 
-            </span>
-            <span>
-            <Button type="button" caption = "HOME" onClick={() => window.location.href="/"}/> 
             </span>
             </form>
     )}

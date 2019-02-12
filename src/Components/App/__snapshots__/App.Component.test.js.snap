@@ -1,0 +1,445 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders without crashing after data is fetched 1`] = `
+<div
+  className="App"
+>
+  <header>
+    <div
+      className="Content"
+    >
+      <div>
+        <h1>
+          The Artifact
+        </h1>
+        <h2>
+          Culture & Art blog
+        </h2>
+      </div>
+      <nav>
+        <div
+          className="navBar"
+        >
+          <a
+            href="/"
+          >
+            Blog
+          </a>
+          <a
+            href="#"
+          >
+            About
+          </a>
+          <a
+            href="#"
+          >
+            Contact
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div
+    className="All-posts"
+  >
+    <div
+      className="Blog-post"
+    >
+      <div
+        className="Post-content"
+      >
+        <div
+          className="Image-panel"
+          style={
+            Object {
+              "backgroundImage": "url(abstract.png)",
+            }
+          }
+        />
+        <article
+          className="Post-text"
+        >
+          <div>
+            <span
+              className="Date-posted"
+            >
+              2nd Januray, 2018
+            </span>
+            <span
+              className="Reading-time"
+            >
+              2 mins
+            </span>
+          </div>
+          <label>
+            The future of abstract art and the culture ...
+          </label>
+          <p>
+            Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+          </p>
+        </article>
+      </div>
+      <div
+        className="Post-reaction"
+      >
+        <hr />
+        <span>
+          <button
+            className="Clap-icon"
+            onClick={[Function]}
+          />
+          10
+          <button
+            className="Heart-icon"
+            onClick={[Function]}
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      className="Blog-post"
+    >
+      <div
+        className="Post-content"
+      >
+        <div
+          className="Image-panel"
+          style={
+            Object {
+              "backgroundImage": "url(outdoor.png)",
+            }
+          }
+        />
+        <article
+          className="Post-text"
+        >
+          <div>
+            <span
+              className="Date-posted"
+            >
+              31st Januray, 2018
+            </span>
+            <span
+              className="Reading-time"
+            >
+              1 min
+            </span>
+          </div>
+          <label>
+            How painting outdoors can transform your 
+          </label>
+          <p>
+            Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+          </p>
+        </article>
+      </div>
+      <div
+        className="Post-reaction"
+      >
+        <hr />
+        <span>
+          <button
+            className="Clap-icon"
+            onClick={[Function]}
+          />
+          1
+          <button
+            className="Liked-heart-icon"
+            onClick={[Function]}
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      className="Blog-post"
+    >
+      <div
+        className="Post-content"
+      >
+        <div
+          className="Image-panel"
+          style={
+            Object {
+              "backgroundImage": "url(young-painters.png)",
+            }
+          }
+        />
+        <article
+          className="Post-text"
+        >
+          <div>
+            <span
+              className="Date-posted"
+            >
+              20th March, 2018
+            </span>
+            <span
+              className="Reading-time"
+            >
+              2 mins
+            </span>
+          </div>
+          <label>
+            10 young painters you need to know
+          </label>
+          <p>
+            Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+          </p>
+        </article>
+      </div>
+      <div
+        className="Post-reaction"
+      >
+        <hr />
+        <span>
+          <button
+            className="Clap-icon"
+            onClick={[Function]}
+          />
+          15
+          <button
+            className="Heart-icon"
+            onClick={[Function]}
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      className="Blog-post"
+    >
+      <div
+        className="Post-content"
+      >
+        <div
+          className="Image-panel"
+          style={
+            Object {
+              "backgroundImage": "url(perfect-art.png)",
+            }
+          }
+        />
+        <article
+          className="Post-text"
+        >
+          <div>
+            <span
+              className="Date-posted"
+            >
+              22nd June, 2018
+            </span>
+            <span
+              className="Reading-time"
+            >
+              5 mins
+            </span>
+          </div>
+          <label>
+            Tips for creating the perfect art
+          </label>
+          <p>
+            Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+          </p>
+        </article>
+      </div>
+      <div
+        className="Post-reaction"
+      >
+        <hr />
+        <span>
+          <button
+            className="Clap-icon"
+            onClick={[Function]}
+          />
+          11
+          <button
+            className="Heart-icon"
+            onClick={[Function]}
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      className="Blog-post"
+    >
+      <div
+        className="Post-content"
+      >
+        <div
+          className="Image-panel"
+          style={
+            Object {
+              "backgroundImage": "url(inspired.png)",
+            }
+          }
+        />
+        <article
+          className="Post-text"
+        >
+          <div>
+            <span
+              className="Date-posted"
+            >
+              4th Feburary, 2019
+            </span>
+            <span
+              className="Reading-time"
+            >
+              9 mins
+            </span>
+          </div>
+          <label>
+            Stay inspired: top artists blog ...
+          </label>
+          <p>
+            Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+          </p>
+        </article>
+      </div>
+      <div
+        className="Post-reaction"
+      >
+        <hr />
+        <span>
+          <button
+            className="Clap-icon"
+            onClick={[Function]}
+          />
+          45
+          <button
+            className="Liked-heart-icon"
+            onClick={[Function]}
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      className="Blog-post"
+    >
+      <div
+        className="Post-content"
+      >
+        <div
+          className="Image-panel"
+          style={
+            Object {
+              "backgroundImage": "url(reason.png)",
+            }
+          }
+        />
+        <article
+          className="Post-text"
+        >
+          <div>
+            <span
+              className="Date-posted"
+            >
+              10th Januray, 2019
+            </span>
+            <span
+              className="Reading-time"
+            >
+              2 mins
+            </span>
+          </div>
+          <label>
+            5 reasons why everyone should try an...
+          </label>
+          <p>
+            Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+          </p>
+        </article>
+      </div>
+      <div
+        className="Post-reaction"
+      >
+        <hr />
+        <span>
+          <button
+            className="Clap-icon"
+            onClick={[Function]}
+          />
+          11
+          <button
+            className="Heart-icon"
+            onClick={[Function]}
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="Button-div"
+  >
+    <button
+      className="Button"
+      onClick={[Function]}
+      type="button"
+    >
+      CREATE POST
+    </button>
+  </div>
+  <footer>
+    <div
+      className="footerContent"
+    >
+      <small>
+        ©artifact.com 2019
+      </small>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`App renders without crashing for loading page 1`] = `
+<div>
+  <header>
+    <div
+      className="Content"
+    >
+      <div>
+        <h1>
+          The Artifact
+        </h1>
+        <h2>
+          Culture & Art blog
+        </h2>
+      </div>
+      <nav>
+        <div
+          className="navBar"
+        >
+          <a
+            href="/"
+          >
+            Blog
+          </a>
+          <a
+            href="#"
+          >
+            About
+          </a>
+          <a
+            href="#"
+          >
+            Contact
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div
+    className="Loading-page"
+  >
+    Loading...
+  </div>
+  <footer>
+    <div
+      className="footerContent"
+    >
+      <small>
+        ©artifact.com 2019
+      </small>
+    </div>
+  </footer>
+</div>
+`;

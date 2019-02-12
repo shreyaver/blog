@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import './Header.Component.css';
 
 const Header = (props) => {
     return (
@@ -11,7 +11,7 @@ const Header = (props) => {
             </div>
             <nav>
                     <div className="navBar">
-                    <a href="#">Blog</a> 
+                    <a href="/">Blog</a> 
                     <a href="#">About</a>  
                     <a href="#">Contact</a>  
                     </div>

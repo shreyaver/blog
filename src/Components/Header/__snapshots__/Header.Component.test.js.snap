@@ -18,7 +18,7 @@ exports[`Header renders without crashing 1`] = `
         className="navBar"
       >
         <a
-          href="#"
+          href="/"
         >
           Blog
         </a>

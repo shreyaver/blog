@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import PostForm from '.';
+import PostForm from './PostForm.Component.js';
 
 describe('PostForm', () => {
   it('renders without crashing', () => {

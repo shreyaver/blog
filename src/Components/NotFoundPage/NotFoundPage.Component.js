@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../Header';
-import Footer from '../Footer';
-import './NotFoundPage.css';
+import Header from '../Header/Header.Component';
+import Footer from '../Footer/Footer.Component';
+import './NotFoundPage.Component.css';
 
 const NotFoundPage = (props) => {
   return (

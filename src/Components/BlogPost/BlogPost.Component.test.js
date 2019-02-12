@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import BlogPost from '.';
+import BlogPost from './BlogPost.Component';
 import { shallow } from 'enzyme';
 
 describe('BlogPost', () => {

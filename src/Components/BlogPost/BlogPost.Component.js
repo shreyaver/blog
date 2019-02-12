@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import PostContent from '../PostContent';
-import PostReaction from '../PostReaction';
-import './BlogPost.css'
+import PostContent from '../PostContent/PostContent.Component.js';
+import PostReaction from '../PostReaction/PostReaction.Component.js';
+import './BlogPost.Component.css'
 
 class BlogPost extends Component {
     state = {

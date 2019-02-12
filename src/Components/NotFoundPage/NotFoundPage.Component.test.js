@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import NotFoundPage from '.';
+import NotFoundPage from './NotFoundPage.Component.js';
 
 describe('NotFoundPage', () => {
   it('renders without crashing', () => {

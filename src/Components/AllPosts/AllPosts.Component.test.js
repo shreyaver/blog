@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import AllPosts from '.';
+import AllPosts from './AllPosts.Component';
 import cardDataArr from '../../mockData';
 
 describe('AllPosts', () => {

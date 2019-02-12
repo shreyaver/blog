@@ -1,5 +1,5 @@
 import React from 'react';
-import './PostReaction.css'
+import './PostReaction.Component.css'
 
 const PostReaction = (props) => {
     let likeButton;

@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import CreatePost from '.';
+import CreatePost from './CreatePost.Component';
 
 describe('CreatePost', () => {
   it('renders without crashing', () => {

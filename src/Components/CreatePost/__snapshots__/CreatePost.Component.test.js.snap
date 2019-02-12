@@ -21,7 +21,7 @@ exports[`CreatePost renders without crashing 1`] = `
           className="navBar"
         >
           <a
-            href="#"
+            href="/"
           >
             Blog
           </a>
@@ -103,15 +103,6 @@ exports[`CreatePost renders without crashing 1`] = `
         type="submit"
       >
         UPLOAD POST
-      </button>
-    </span>
-    <span>
-      <button
-        className="Button"
-        onClick={[Function]}
-        type="button"
-      >
-        HOME
       </button>
     </span>
   </form>
