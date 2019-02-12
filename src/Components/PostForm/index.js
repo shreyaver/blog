@@ -51,7 +51,10 @@ class PostForm extends Component  {
                 <input type="file" name="pic" accept="image/*"></input>
             </span>
             <span>
-                <Button type = "submit" caption = "UPLOAD POST" />
+                <Button type = "submit" caption = "UPLOAD POST" /> 
+            </span>
+            <span>
+            <Button type="button" caption = "HOME" onClick={() => window.location.href="/"}/> 
             </span>
             </form>
     )}

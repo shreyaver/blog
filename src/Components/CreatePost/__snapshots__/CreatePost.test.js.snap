@@ -105,6 +105,15 @@ exports[`CreatePost renders without crashing 1`] = `
         UPLOAD POST
       </button>
     </span>
+    <span>
+      <button
+        className="Button"
+        onClick={[Function]}
+        type="button"
+      >
+        HOME
+      </button>
+    </span>
   </form>
   <footer>
     <div
