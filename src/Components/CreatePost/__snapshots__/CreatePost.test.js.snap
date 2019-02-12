@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreatePost renders without crashing 1`] = `
+<div
+  className="CreatePost"
+>
+  <header>
+    <div
+      className="Content"
+    >
+      <div>
+        <h1>
+          The Artifact
+        </h1>
+        <h2>
+          Culture & Art blog
+        </h2>
+      </div>
+      <nav>
+        <div
+          className="navBar"
+        >
+          <a
+            href="#"
+          >
+            Blog
+          </a>
+          <a
+            href="#"
+          >
+            About
+          </a>
+          <a
+            href="#"
+          >
+            Contact
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <form
+    className="Form-content"
+  >
+    <span>
+      <label>
+        Date
+      </label>
+      <input
+        type="date"
+      />
+    </span>
+    <span>
+      <label>
+        Reading time (in minutes)
+      </label>
+      <input
+        type="number"
+      />
+    </span>
+    <span
+      className="title"
+    >
+      <label>
+        Title
+      </label>
+      <input
+        maxLength={70}
+        type="text"
+      />
+    </span>
+    <span
+      className="description"
+    >
+      <label>
+        Description
+      </label>
+      <textarea
+        maxLength={130}
+      />
+    </span>
+    <span>
+      <label>
+        Image
+      </label>
+      <input
+        accept="image/*"
+        name="pic"
+        type="file"
+      />
+    </span>
+    <span>
+      <button
+        className="Button"
+        type="submit"
+      >
+        UPLOAD POST
+      </button>
+    </span>
+  </form>
+  <footer>
+    <div
+      className="footerContent"
+    >
+      <small>
+        ©artifact.com 2019
+      </small>
+    </div>
+  </footer>
+</div>
+`;
