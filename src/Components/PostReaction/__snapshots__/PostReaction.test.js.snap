@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostReaction renders without crashing 1`] = `
+<div
+  className="Post-reaction"
+>
+  <hr />
+  <span>
+    <button
+      className="Clap-icon"
+    />
+    11
+    <button
+      className="Heart-icon"
+    />
+  </span>
+</div>
+`;

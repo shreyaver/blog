@@ -1,0 +1,30 @@
+.Post-reaction {
+    padding: 0px 10px 15px 10px;
+}
+button {
+    height: 25px;
+    width:25px;
+    border: none;
+}
+button:focus {
+    outline: none;
+}
+.Clap-icon {
+    float:left;
+    background-image: url("../../Icons/clapping.svg");
+    margin-right: 5px;
+}
+.Heart-icon {
+    float:right;
+    background-image: url("../../Icons/heart-black.svg");
+}
+.Heart-icon:hover {
+    background-image: url("../../Icons/heart-red.svg");
+}
+.Liked-heart-icon {
+    float:right;
+    background-image: url("../../Icons/heart-red.svg");
+}
+.Liked-heart-icon:hover {
+    background-image: url("../../Icons/heart-black.svg");
+}
