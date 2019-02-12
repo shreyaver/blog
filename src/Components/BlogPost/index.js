@@ -13,11 +13,16 @@ class BlogPost extends Component {
             liked: !state.liked
         }));
     }
+    handleClap = () => {
+        this.setState((state) => ({
+            claps: state.claps+1
+        }));
+    }
     render() {
         return (
            <div className = "Blog-post">
             <PostContent cardData={this.props.cardData} />
-            <PostReaction claps={this.state.claps} liked={this.state.liked} onLike={this.handleLike} />
+            <PostReaction claps={this.state.claps} liked={this.state.liked} onLike={this.handleLike}  onClap={this.handleClap}/>
            </div>
         )
     }

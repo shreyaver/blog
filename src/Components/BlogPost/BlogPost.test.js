@@ -31,4 +31,9 @@ describe('BlogPost', () => {
     wrapper.instance().handleLike();
     expect(wrapper.instance().state.liked).toEqual(true);
   });
+  it('changes claps state', () => {
+    
+    wrapper.instance().handleClap();
+    expect(wrapper.instance().state.claps).toEqual(cardData.claps+1);
+  });
 })

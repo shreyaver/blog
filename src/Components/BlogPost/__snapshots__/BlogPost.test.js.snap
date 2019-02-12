@@ -45,6 +45,7 @@ exports[`BlogPost renders without crashing 1`] = `
     <span>
       <button
         className="Clap-icon"
+        onClick={[Function]}
       />
       10
       <button

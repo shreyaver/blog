@@ -86,6 +86,7 @@ exports[`App renders without crashing 1`] = `
         <span>
           <button
             className="Clap-icon"
+            onClick={[Function]}
           />
           10
           <button
@@ -139,6 +140,7 @@ exports[`App renders without crashing 1`] = `
         <span>
           <button
             className="Clap-icon"
+            onClick={[Function]}
           />
           1
           <button
@@ -192,6 +194,7 @@ exports[`App renders without crashing 1`] = `
         <span>
           <button
             className="Clap-icon"
+            onClick={[Function]}
           />
           15
           <button
@@ -245,6 +248,7 @@ exports[`App renders without crashing 1`] = `
         <span>
           <button
             className="Clap-icon"
+            onClick={[Function]}
           />
           11
           <button
@@ -298,6 +302,7 @@ exports[`App renders without crashing 1`] = `
         <span>
           <button
             className="Clap-icon"
+            onClick={[Function]}
           />
           45
           <button
@@ -351,6 +356,7 @@ exports[`App renders without crashing 1`] = `
         <span>
           <button
             className="Clap-icon"
+            onClick={[Function]}
           />
           11
           <button

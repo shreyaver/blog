@@ -12,7 +12,7 @@ const PostReaction = (props) => {
         <div className = "Post-reaction">
             <hr/>
             <span>
-                <button className="Clap-icon"></button>
+                <button className="Clap-icon" onClick = {props.onClap}></button>
                 {props.claps}
                 {likeButton}            
             </span>
