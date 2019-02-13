@@ -11,6 +11,9 @@ class App extends Component {
   state = {
     cardDataArr: []
   }
+  componentWillUnmount() {
+    console.log("unmounting");
+  }
   componentDidMount() {
     getRequest('https://api.myjson.com/bins/hc5ye').then((cardDataArr) => {
       this.setState({ cardDataArr: cardDataArr.data});

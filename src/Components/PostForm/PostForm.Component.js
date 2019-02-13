@@ -1,54 +1,59 @@
 import React, { Component } from 'react';
 import './PostForm.Component.css';
 import Button from '../Button/Button.Component';
+import Axios from 'axios';
 
 class PostForm extends Component  {
     state = {
-        titleCharacters: 70,
-        descriptionCharacters: 130
+        date: '',
+        readingTime: '',
+        title: '',
+        description: ''
     }
-    handleTitleEntry = () => {
-        this.setState((state) => ({
-            titleCharacters: 70-document.getElementsByClassName("titleEntry")[0].value.length
-        }));
+    handleInput = (changedField) => {
+        this.setState({ [changedField.target.className]: changedField.target.value })
     }
-    handleDescriptionEntry = () => {
-        this.setState((state) => ({
-            descriptionCharacters: 130-document.getElementsByClassName("descriptionEntry")[0].value.length
-        }));
+    handleSubmit = (e) => {
+        e.preventDefault();
+        const form = new FormData();
+        Object.keys(this.state).forEach((key) => form.append(key, this.state[key]));
+        return Axios.post('/post', form).then((payload) => {
+            console.log(payload.data);
+            return payload.data;
+        });
     }
     render() {
     return (
-            <form className = "Form-content">
+            <form className = "Form-content" encType = "multipart/form-data" onSubmit={this.handleSubmit}> 
             <span>
                 <label>
                     Date 
                 </label>
-                <input type = "date" />
+                <input type = "date" onChange = {this.handleInput} value = {this.state.date} className = "date" />
             </span>
             <span>
                 <label>
                     Reading time (in minutes)
                 </label>
-                <input type = "number"/>
+                <input type = "number" onChange = {this.handleInput} className = "readingTime" />
             </span>
-            <span className = "title">
+            <span className = "titleEntry">
                 <label>
-                    Title (Characters: {this.state.titleCharacters})
+                    Title (Characters: {70-this.state.title.length})
                 </label>
-                <input type = "text" maxLength = {70} onChange = {this.handleTitleEntry} className = "titleEntry"/>
+                <input type = "text" maxLength = {70} onChange = {this.handleInput} value = {this.state.title} className = "title"/>
             </span>
-            <span className = "description">
+            <span className = "descriptionEntry">
                 <label>
-                    Description (Characters: {this.state.descriptionCharacters})
+                    Description (Characters: {130-this.state.description.length})
                 </label>
-                <textarea maxLength = {130} onChange = {this.handleDescriptionEntry} className = "descriptionEntry"/>
+                <textarea maxLength = {130} onChange = {this.handleInput} value = {this.state.description} className = "description"/>
             </span>
             <span>
                 <label> 
                     Image
                 </label>
-                <input type="file" name="pic" accept="image/*"></input>
+                <input type="file" name="image" accept="image/*"></input>
             </span>
             <span>
                 <Button type = "submit" caption = "UPLOAD POST" /> 

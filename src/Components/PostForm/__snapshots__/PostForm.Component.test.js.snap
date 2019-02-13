@@ -3,13 +3,18 @@
 exports[`PostForm renders without crashing 1`] = `
 <form
   className="Form-content"
+  encType="multipart/form-data"
+  onSubmit={[Function]}
 >
   <span>
     <label>
       Date
     </label>
     <input
+      className="date"
+      onChange={[Function]}
       type="date"
+      value=""
     />
   </span>
   <span>
@@ -17,11 +22,13 @@ exports[`PostForm renders without crashing 1`] = `
       Reading time (in minutes)
     </label>
     <input
+      className="readingTime"
+      onChange={[Function]}
       type="number"
     />
   </span>
   <span
-    className="title"
+    className="titleEntry"
   >
     <label>
       Title (Characters: 
@@ -29,14 +36,15 @@ exports[`PostForm renders without crashing 1`] = `
       )
     </label>
     <input
-      className="titleEntry"
+      className="title"
       maxLength={70}
       onChange={[Function]}
       type="text"
+      value=""
     />
   </span>
   <span
-    className="description"
+    className="descriptionEntry"
   >
     <label>
       Description (Characters: 
@@ -44,9 +52,10 @@ exports[`PostForm renders without crashing 1`] = `
       )
     </label>
     <textarea
-      className="descriptionEntry"
+      className="description"
       maxLength={130}
       onChange={[Function]}
+      value=""
     />
   </span>
   <span>
@@ -55,7 +64,7 @@ exports[`PostForm renders without crashing 1`] = `
     </label>
     <input
       accept="image/*"
-      name="pic"
+      name="image"
       type="file"
     />
   </span>

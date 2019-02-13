@@ -38,10 +38,10 @@
     max-width: 700px;
     min-width: 150px;
 }
-.Form-content .title {
+.Form-content .titleEntry {
     height: 50px;
 }
-.Form-content .description {
+.Form-content .descriptionEntry {
     height: 80px;
 }
 .Form-content input[type=text] {
